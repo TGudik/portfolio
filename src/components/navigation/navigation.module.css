@@ -1,0 +1,32 @@
+.navContainer {
+    position: fixed;
+    width: 100vw;
+    max-width: 1240px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navList {
+    display: flex;
+    gap: 20px;
+}
+
+.navItem {
+    list-style-type: none;
+    background-color: var(--color-primary);
+    padding: 20px 10px;
+    border-radius: 0 0 5px 5px;
+}
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.navItem:hover {
+    background-color: var(--color-primary-hover);
+    
+    a {
+        color: var(--color-text-muted);
+    }
+}
