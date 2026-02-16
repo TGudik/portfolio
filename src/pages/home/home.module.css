@@ -18,23 +18,26 @@
             align-items: end;
             transform: translateX(-34.8%);
             h2 {
-                line-height: 0.8;
+                line-height: 0.9;
             }
         }
     }
     p {
-        color: var(--color-primary);
+        color: var(--color-text);
         font-weight: 900;
         font-size: clamp(1.125rem, 0.6607rem + 2.2857vw, 1.875rem);
     }
     h2 {
         font-size: clamp(3.5rem, 1.256rem + 11.0476vw, 7.125rem);
+        background: linear-gradient(to bottom, var(--color-primary), var(--color-text));
+        color: transparent;
+        background-clip: text;
     }
-    h4 {
+    .subTitle {
         width: 800px;
         max-width: 90vw;
         margin: 0 auto;
         font-size: clamp(0.875rem, 0.6429rem + 1.1429vw, 1.25rem);
-        color: var(--color-primary);
+        color: var(--color-text);
     }
 }

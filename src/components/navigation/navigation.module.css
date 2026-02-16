@@ -24,14 +24,14 @@
 
 .navItem {
     color: var(--color-text);
-    background: linear-gradient(to top, var(--color-primary), var(--color-secondary));
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
     padding: 10px 20px;
     border-radius: 100px;
 
     &:hover {
-        background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+        background: linear-gradient(to top, var(--color-primary), var(--color-secondary));
     }
     &.active {
-        background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+        background: linear-gradient(to top, var(--color-primary), var(--color-secondary));
     }
 }

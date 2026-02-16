@@ -1,6 +1,6 @@
 
 .projectCard {
-    background-color: var(--color-text);
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
     width: 90%;
     min-height: 100px;
     margin: 0 auto;
@@ -33,7 +33,7 @@
 }
 
 .projectTitle, .projectSubTitle, .projectDescription {
-    color: #333;
+    color: var(--color-text);
 }
 
 .projectTitle {
@@ -51,15 +51,24 @@
 .btnContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+    margin: 10px;
+    border-radius: 18px;
 }
 
 .showMoreBtn, .seeProjectBtn {
-    background-color: var(--color-primary);
-    padding: 20px 40px;
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+    padding: 10px 30px;
     border: none;
     margin: 10px 20px;
-    border-radius: 10px;
+    border-radius: 100px;
     color: var(--color-text);
     font-size: 20px;
     font-weight: 700;
+}
+
+.showMoreBtn:hover, .seeProjectBtn:hover {
+    background: linear-gradient(to top, var(--color-primary), var(--color-secondary));
 }
