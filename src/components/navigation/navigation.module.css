@@ -1,10 +1,11 @@
 .navContainer {
     position: fixed;
-    background-color: var(--color-border);
-    padding: 4px;
+    background-color: #ededed;
+    padding: 2px;
     border-radius: 100px;
     top: 20px;
     right: 20px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.238);
 }
 
 .navList {
@@ -14,6 +15,7 @@
     padding: 10px 20px;
     border-radius: 100px;
     background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+    box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.318);
 
 
     a {
@@ -27,11 +29,15 @@
     background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
     padding: 10px 20px;
     border-radius: 100px;
+    border: 1px solid #f5f5f5;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.329);
 
     &:hover {
         background: linear-gradient(to top, var(--color-primary), var(--color-secondary));
+        box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.329);
     }
     &.active {
         background: linear-gradient(to top, var(--color-primary), var(--color-secondary));
+        box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.329);
     }
 }

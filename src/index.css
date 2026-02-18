@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 :root {
-  --color-primary: #b2b2b2;
-  --color-secondary: #585858;
+  --color-primary: #727272;
+  --color-secondary: #343434;
   --color-primary-hover: #059669;
 
-  --color-bg: #0f172a;
+  --color-bg: #4d4d4d;
   --color-surface: #111827;
 
   --color-text: #e5e7eb;
   --color-text-muted: #9ca3af;
 
-  --color-border: #1f2937;
+  --color-border: #343434;
 }
 
 *{
@@ -33,5 +33,6 @@ a {
 
 h1, h2, h3, h4 {
   color: var(--color-text-muted);
-  font-family: "Montserrat";
+  font-family: "Oswald";
+  
 }

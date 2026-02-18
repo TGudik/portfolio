@@ -7,10 +7,12 @@ export default function About() {
             <div className={styles.aboutGrid}>
               <img src={portrait} alt="portræt" />
               <div className={styles.aboutText}>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis unde dolorem aliquam recusandae perferendis iusto nulla excepturi fuga modi facere. Odit ad libero illum doloribus deleniti a ab provident. Exercitationem veritatis cum iusto odit perspiciatis ea voluptatum quisquam fuga expedita!</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis unde dolorem aliquam recusandae perferendis iusto nulla excepturi fuga modi facere. Odit ad libero illum doloribus deleniti a ab provident. Exercitationem veritatis cum iusto odit perspiciatis ea voluptatum quisquam fuga expedita!</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis unde dolorem aliquam recusandae perferendis iusto nulla excepturi fuga modi facere. Odit ad libero illum doloribus deleniti a ab provident. Exercitationem veritatis cum iusto odit perspiciatis ea voluptatum quisquam fuga expedita!</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis unde dolorem aliquam recusandae perferendis iusto nulla excepturi fuga modi facere. Odit ad libero illum doloribus deleniti a ab provident. Exercitationem veritatis cum iusto odit perspiciatis ea voluptatum quisquam fuga expedita!</p>
+                <p>Jeg hedder Tim Gudiksen, jeg går på Medieskolerne i Viborg, hvor jeg læser til webudvikler. Jeg startede på uddannelsen i Januar 2025, og der havde jeg ikke nogen erfaring med kodning og webudvikling. Siden da har jeg lært HTML, CSS, JS og React, måden jeg har lært det har været gennem en blanding af tavleundervisning, gruppearbejde, skoleafleveringer og selvstændige projekter <br /> <br />
+                Skolen underviser i både frontend og backend arbejde. I mit selvstændige projekt "Ringhjørnet", bygger jeg en webshop i React som kobler til flere backendtjenester for at opfylde funktionaliteterne. <br /> <br />
+                
+                
+                </p>
+                
               </div>
             </div>
         </div> 

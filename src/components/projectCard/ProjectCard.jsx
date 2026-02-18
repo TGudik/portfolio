@@ -27,14 +27,14 @@ export default function ProjectCard({ img, projectTitle, projectSubTitle, projec
         </div>
         <div className={styles.btnContainer}>
           <Link target="_blank" to={projectLink}>
-            <button className={styles.seeProjectBtn}>Se Projektet</button>
+            <button className={styles.seeProjectBtn}>Se projektet</button>
           </Link>
-          {show && <Link target="_blank" to={githubLink}>
-            <button className={styles.seeProjectBtn}>Se Github repo</button>
-          </Link>}
           <button className={styles.showMoreBtn} onClick={() => setShow(!show)}>
             {show ? "Læs mindre" : "Læs mere"}
           </button>
+          {show && <Link target="_blank" to={githubLink}>
+            <button className={styles.seeProjectBtn}>Se Github</button>
+          </Link>}
         </div>
       </div>
     );
